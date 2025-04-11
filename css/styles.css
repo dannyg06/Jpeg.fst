@@ -1,0 +1,15 @@
+html {
+    background-color:#adc178;
+}
+
+body {
+    background-color:#dde5b6;
+    min-height: 100vh; 
+    font-family: "Sour Gummy", serif;
+    width: 960px;
+    margin: 5px auto;
+    border-radius: 10px;
+    padding: 20px;
+   
+}
+

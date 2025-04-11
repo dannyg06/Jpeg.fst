@@ -1,0 +1,199 @@
+
+* {
+    box-sizing: border-box; 
+  }
+
+html{
+    background-color: #637081
+}
+
+body {
+    background-color: #ACCBE1;
+    border-radius: 5px;
+    color: black;
+    padding: 5px;
+    max-width: 100%; 
+    margin: 0 auto; 
+  
+} 
+
+header {
+    
+    max-width: 100%; 
+    object-fit: cover;
+   
+}
+
+nav{
+    text-align: center;
+    background-color: #cbf0f4;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+nav li{
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+
+nav li a {
+    color: #732922;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    display: block;
+    font-size: larger;
+  }
+  
+ nav li a:hover {
+    background-color: #274c77;
+    display: block;
+    color: #fff;
+  }
+  
+button{
+    width: 80px;
+    height: 30px;
+    padding: 5px;
+}
+
+
+.container{
+    background-color: #ACCBE1;
+    padding: 50px;
+    max-width: fit-content;
+    max-width: 100%; 
+  margin: 0 auto; 
+
+}
+
+main{
+    background-color: #ACCBE1;
+    margin: auto;
+    padding: 2px;
+    max-width: 100%; 
+}
+
+h1, h2{
+    
+    text-align: center;
+}
+
+p{
+    line-height: 1.5;
+}
+
+#accordion{
+    width: 75%;
+    margin: 20px auto;
+}
+
+#accordion .ui-accordion-content {
+    background-color: #7C98B3;
+    color: #fff;
+  } 
+
+#accordion h3 {
+    color: #5E3023;
+    background-color: antiquewhite;
+    }
+
+ footer{
+    background-color: #598392;
+    padding: 20px 0;
+    margin-top: 10px;
+    text-align: center;
+ }
+
+/*Classes*/
+
+.header{
+    width:fit-content;
+}
+
+.card-title {
+    color: #fff;
+  }
+  
+.card-text {
+    color: #fff;
+  }
+
+.card {
+    object-position: center;
+    object-fit: cover;
+    background-color: #598392;
+    width: 18rem;
+    text-align: justify;
+    justify-content: center;
+    border-radius: 5px;
+    margin: 20px; 
+  }
+  
+
+  .row{
+    margin-left: 70px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+
+  }
+
+.pajax {
+    display: inline;
+  }
+  
+  
+img {
+    width: 35%;
+    margin-left: 30%;
+  }
+
+/*tablet css*/
+
+@media (max-width: 768px) {
+    header {
+      background-position: center;
+    }
+    .nav-list {
+        display: none;
+      }
+      
+      .nav-buttons {
+        display: flex;
+        justify-content: space-between;
+      }
+      
+      .nav-btn {
+        margin-right: 20px;
+      }
+      
+      .menu-btn {
+        display: none;
+      }
+    .row {
+        margin-left: 0; 
+      }
+      .card {
+        width: 100%; 
+}
+}
+
+/*desktop css*/
+@media (min-width:1024px) {
+
+    header img{
+        width: 30%;
+        margin-left: 400px;
+    }
+
+img{
+
+    max-width: 100%;
+}
+
+}

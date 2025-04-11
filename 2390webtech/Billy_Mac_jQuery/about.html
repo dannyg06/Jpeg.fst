@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMBR</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inclusive+Sans:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.3/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+<body>
+    <div id="container">
+      <header>
+        <img src="images/Logo_billimac.jpg" alt="ah"> 
+      </header>
+      <nav>
+        <ul>
+          <li class="dropdown">
+          <a href="#" class="dropdown-toggle">Menu</a>
+          <ul class="dropdown-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#Hamburguers">Hamburguers</a></li>
+            <li><a href="#Sides">Sides</a></li>
+            <li><a href="#Drinks">Drinks</a></li>
+            <li><a href="#Desserts">Desserts</a></li>
+          </ul>
+        </li>
+
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="arcade.html">Arcade</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+      <hr>
+          <main>
+            <h1>Welcome!</h1>
+            <p>"Welcome to Billy Mac's, where gaming meets great food and good times. We're passionate about creating a unique experience that brings people together. On this page, we're excited to share our story, from our humble beginnings to our mission to become the ultimate gaming and dining destination."
+            </p>
+
+
+<hr>
+<div id="about">
+    <div class="us">
+        <h3 class="test">How It Started</h3>
+      <p>
+        Billy Mac's was founded by Billy MacDonald, a self-proclaimed gamer and foodie. Growing up, Billy spent countless hours in arcades, competing with friends and family in high-score battles. As he grew older, his love for gaming never faded, but he began to notice a void in the dining scene – a place where people could enjoy delicious food and immersive gaming experiences under one roof.
+      </p>
+    <p>In 2010, Billy turned his vision into a reality, opening the first Billy Mac's location in a small town. The restaurant quickly gained popularity among locals and gamers alike, thanks to its unique blend of tasty food, craft beers, and classic arcade games.</p>
+    <p>Over the years, Billy Mac's has expanded to multiple locations, but its core mission remains the same: to provide a welcoming space for people to come together, enjoy great food and drinks, and indulge in their passion for gaming.
+    </p>
+    <p>Today, Billy Mac's is a beloved destination for gamers, foodies, and families alike. Whether you're a retro gaming enthusiast or just looking for a fun night out, we invite you to join our community and experience the ultimate gaming and dining destination.</p>
+    </div>
+    <button class="btn">How We Started</button>
+    
+</div>
+
+
+<hr>
+<button id="btn" class="btn-sad">Fun Fact!</button>
+
+<div class="box-card" id="card">
+    <h4>Fun Fact!</h4>
+    <p>Billy Mac's founder, Billy MacDonald, is a retro gaming enthusiast who still holds the high score in Galaga at his local arcade!</p>
+    <script>
+        let btn = document.getElementById('btn');
+        let card = document.getElementById('card');
+        btn.addEventListener('click', () => {
+            card.classList.toggle('show');
+            if(btn.innerText === 'Fun Fact!') {
+                btn.innerText = 'Close';
+            } else {
+                btn.innerText = 'Fun Fact!';
+            }
+        })
+    </script>
+</div>
+
+
+
+<hr>
+
+              <h2>Get to know us</h2>
+            <div id="accordion">
+                <h3>About the owners</h3>
+                <div>
+                  <p>Billy MacDonald is the founder and owner of Billy Mac's. A self-proclaimed gamer and foodie, Billy has always been passionate about creating a unique experience that combines his two favorite things. With years of experience in the hospitality industry, Billy has brought his vision to life, creating a welcoming space for gamers, foodies, and families alike.</p>
+                  <p>When he's not running the show at Billy Mac's, Billy can be found gaming with friends, trying out new recipes in the kitchen, or cheering on his favorite sports teams. Want to learn more about Billy's gaming habits or favorite foods? Follow him on social media!
+                    </p>
+                    <img src="images/mna.jpg" alt="">
+                </div>
+                <h3>Favorite Quote</h3>
+                <div>
+                  <p>Games, grub, and good times - that's what it's all about!' This mantra has guided me every step of the way, from conceptualizing Billy Mac's to making it a reality.</p>
+                </div>
+                <h3>Personal Interests</h3>
+                <div>
+                  <p>
+                    When I'm not running the show at Billy Mac's, you can find me cheering on my favorite sports teams, experimenting with new recipes in the kitchen, or jamming out to classic rock tunes.</p>
+                </div>
+                <h3>Notable Achievements</h3>
+                <div>
+                  <p>I'm proud to say that Billy Mac's has been recognized as one of the top gaming destinations in the city, and we've even hosted several high-profile gaming tournaments and events. It's an incredible feeling to know that our little gaming paradise has become a staple of the community!</p>
+                  <div>
+                    <p>Meet Sarah Taylor, Co-Owner of Billy Mac's. As a child, Sarah spent hours playing classic arcade games with her siblings, fostering a lifelong passion for gaming. Her love for food and hospitality was inspired by her parents, who owned a small bakery. After completing her degree in business and hospitality, Sarah worked in various restaurants and bars, eventually meeting Billy and joining forces to bring Billy Mac's to life.</p>
+                    <p>Sarah's dedication to creating a welcoming atmosphere has been instrumental in shaping the Billy Mac's experience. When she's not managing the day-to-day operations, you can find her experimenting with new recipes, practicing yoga, or gaming with friends. We're thrilled to have Sarah as part of the Billy Mac's team, and we're sure you'll love her just as much as we do!</p>
+                    <img src="images/woman.jpg" alt="">
+                  </div>
+                </div>
+                </div>
+
+        </main>
+
+        <footer>
+          &copy;All rigths reserved. 2025 jQuery Dgomez
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.14.1/jquery-ui.min.js"></script>
+    <script src="js/scripts.js"></script>
+
+</body>
+</html>
